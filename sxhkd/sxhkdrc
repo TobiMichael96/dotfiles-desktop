@@ -28,7 +28,7 @@ super + shift + r
 
 # show power menu
 super + p
-	~/.config/scripts/power_menu.sh
+	~/dotfiles/scripts/power_menu.sh
 
 # close
 super + shift + q

@@ -24,7 +24,7 @@ super + Escape
 
 # reload theme
 super + shift + r
-	wal -i ~/.config/background
+	wal -i ~/dotfiles/background
 
 # show power menu
 super + p

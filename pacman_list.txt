@@ -1,11 +1,9 @@
 acpid
 alsa-utils
-android-studio
 android-tools
 android-udev
 arandr
 atom
-aurman
 autoconf
 automake
 awesome
@@ -15,9 +13,7 @@ bash-completion
 bind-tools
 binutils
 bison
-breeze-default-cursor-theme
 breeze-gtk
-bspwm-git
 btrfs-progs
 bzip2
 bzr
@@ -71,7 +67,6 @@ htop
 inetutils
 inkscape
 intel-ucode
-intellij-idea-ultimate-edition
 iproute2
 iputils
 ipw2100-fw
@@ -100,7 +95,6 @@ make
 man-db
 man-pages
 mdadm
-minecraft-launcher
 mlocate
 modemmanager
 mosh
@@ -120,7 +114,6 @@ openssh
 openvpn
 os-prober
 pacman
-paper-icon-theme
 patch
 pavucontrol
 pciutils
@@ -130,9 +123,7 @@ physlock
 pkgconf
 pkgfile
 playerctl
-polybar-git
 procps-ng
-proton
 psmisc
 pulseaudio
 python-gobject
@@ -149,7 +140,6 @@ sed
 shadow
 sharutils
 splix
-spotify
 steam
 sudo
 sxhkd
@@ -161,10 +151,7 @@ teamspeak3
 terminus-font
 texinfo
 thunderbird
-trizen
 ttf-font-awesome
-ttf-font-awesome-4
-unified-remote-server
 unrar
 unzip
 usb_modeswitch
@@ -199,5 +186,4 @@ xorg-xrandr
 xorg-xsetroot
 xterm
 xz
-yaourt
 zip

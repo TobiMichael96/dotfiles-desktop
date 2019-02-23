@@ -58,6 +58,14 @@ super + {Left,Right}
 super + {Down,Up}
 	bspc desktop -f {prev,next}.local
 
+# switch node with the biggest one 
+super + b  bspc 
+	node -s biggest.local 
+
+# toggle sticky node 
+super + s  
+	bspc node -g sticky
+
 #
 # preselect
 #
@@ -104,28 +112,20 @@ XF86AudioMute
 XF86Audio{Play,Pause,Next,Prev}
 	playerctl {play-pause,pause,next,previous}
 
-# Backlight controls
-#XF86MonBrightness{Up,Down}
-#	xbacklight {-inc,-dec} 10 && ~/.config/scripts/brightness.sh n
-
 # Lock screen
 super + l
-	~/.config/scripts/physlock.sh
-
-# Sleep
-#@XF86Sleep
-#	~/.config/scripts/sleep.sh
+	~/dotfiles/scripts/physlock.sh
 
 # Screenshot
 @Print
-	~/.config/scripts/screenshot-tool.sh s
+	~/dotfiles/scripts/screenshot-tool.sh s
 
 super + @Print
-	~/.config/scripts/screenshot-tool.sh f
+	~/dotfiles/scripts/screenshot-tool.sh f
 
 # Show information
 super + i
-	~/.config/scripts/information.sh
+	~/dotfiles/scripts/information.sh
 
 # Show keybindings
 super + F1

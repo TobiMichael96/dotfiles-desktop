@@ -7,6 +7,7 @@ minecraft-launcher
 paper-icon-theme
 polybar-git
 proton
+pycharm-professional
 spotify
 trizen
 ttf-font-awesome-4

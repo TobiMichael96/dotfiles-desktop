@@ -184,6 +184,7 @@ xorg-xinit
 xorg-xkill
 xorg-xrandr
 xorg-xsetroot
+xss-lock
 xterm
 xz
 zip

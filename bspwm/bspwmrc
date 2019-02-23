@@ -23,9 +23,9 @@ setxkbmap de
 xsetroot -cursor_name left_ptr &
 xrdb merge .Xresources &
 wmname LG3D &
-wal -i ~/.config/background
+wal -i ~/dotfiles/background
 ~/.config/polybar/launch.sh &
-~/.config/scripts/physlock.sh &
+~/dotfiles/scripts/physlock.sh &
 
 # other programms to autostart
 keepassxc &
@@ -36,7 +36,7 @@ spotify &
 teamspeak3 &
 
 xset s 120
-xss-lock -- ~/.config/scripts/physlock.sh &
+xss-lock -- ~/dotfiles/scripts/physlock.sh &
 
 # source the colors.
 . "${HOME}/.cache/wal/colors.sh"

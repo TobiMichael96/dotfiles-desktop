@@ -141,6 +141,7 @@ shadow
 sharutils
 splix
 steam
+steam-native-runtime
 sudo
 sxhkd
 sysfsutils

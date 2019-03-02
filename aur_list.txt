@@ -6,7 +6,7 @@ intellij-idea-ultimate-edition
 minecraft-launcher
 paper-icon-theme
 polybar-git
-proton
+proton-git
 pycharm-professional
 spotify
 trizen

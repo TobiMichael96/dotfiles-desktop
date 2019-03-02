@@ -25,7 +25,6 @@ xrdb merge .Xresources &
 wmname LG3D &
 wal -i ~/dotfiles/background
 ~/.config/polybar/launch.sh &
-~/dotfiles/scripts/physlock.sh &
 
 # other programms to autostart
 keepassxc &
@@ -35,7 +34,9 @@ steam &
 spotify &
 teamspeak3 &
 
-xset s 120
+~/dotfiles/scripts/physlock.sh &
+
+xset s 600
 xss-lock -- ~/dotfiles/scripts/physlock.sh &
 
 # source the colors.

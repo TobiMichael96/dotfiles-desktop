@@ -126,6 +126,7 @@ playerctl
 procps-ng
 psmisc
 pulseaudio
+pulseaudio-alsa
 python-gobject
 python-pip
 python-pyqt5

@@ -25,7 +25,4 @@ alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 alias stickm='sh ~/dotfiles/scripts/mount-stick.sh'
 alias stickum='sh ~/dotfiles/scripts/umount-stick.sh'
 
-
-PS1='[\u@\h \W]\$ '
-
 cat ~/.cache/wal/sequences

@@ -18,6 +18,7 @@ case $class in
  (keepassxc) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
  ([sS]team*) echo desktop=6;;
+ ("Friends List") echo desktop=5;;
 
  ([cC]hromium|Chromium-browser) echo desktop=2;;
  ([lL]ibre[oO]ffice*) echo state=tiled\ layer=normal;;
@@ -27,5 +28,3 @@ case $class in
    (spotify) echo desktop=7;;
   esac;;
 esac;
-
-# vim: set ft=sh :

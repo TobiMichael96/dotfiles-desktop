@@ -1,14 +1,13 @@
 [Unit]
 Description=Mount Webdav folder
-Wants=network-online.target
-After=network-online.target
+BindTo=wpa_supplicant@wlp3s0.service, getty@tty1.service
+After=wpa_supplicant@wlp3s0.service
 
 [Service]
 User=tobias
 Type=simple
 RemainAfterExit=yes
-Restart=on-failure
-ExecStartPre=/bin/sleep 15
+ExecStartPre=/bin/bash /home/tobias/dotfiles/scripts/check_connection.sh
 ExecStart=mount /home/tobias/Nextcloud
 ExecStop=umount /home/tobias/Nextcloud
 

@@ -17,8 +17,7 @@ case $class in
  (Spotify) echo desktop=7;;
  (keepassxc) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
- ([sS]team*) echo desktop=6;;
- ("Friends List") echo desktop=5;;
+ ([sS]team) echo desktop=6;;
 
  ([cC]hromium|Chromium-browser) echo desktop=2;;
  ([lL]ibre[oO]ffice*) echo state=tiled\ layer=normal;;

@@ -46,7 +46,7 @@ module-margin-left = 2
 module-margin-right = 2
 font-0 = "Roboto:pixelsize=14;2"
 font-1 = "FontAwesome:pixelsize=13;2"
-modules-left = bspwm tv
+modules-left = bspwm
 modules-center = date
 modules-right = music pulseaudio time
 ;override-redirect = true
@@ -59,7 +59,7 @@ cursor-scroll = ns-resize
 ;_____________________________________________________
 
 [bar/secondary]
-monitor = DVI-D-0
+monitor = HDMI-A-0
 width = 99.3%
 height = 25
 offset-x = 0.3%
@@ -93,7 +93,7 @@ cursor-scroll = ns-resize
 ;_____________________________________________________
 
 [bar/third]
-monitor = HDMI-A-0
+monitor = DVI-D-0
 width = 99%
 height = 25
 offset-x = 0.3%

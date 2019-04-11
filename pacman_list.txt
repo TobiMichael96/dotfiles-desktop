@@ -171,9 +171,8 @@ which
 whois
 wireguard-tools
 wireless_tools
-wireshark-gtk
+wireshark-qt
 wmname
-wpa_actiond
 xclip
 xdo
 xdotool

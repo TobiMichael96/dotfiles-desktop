@@ -14,7 +14,7 @@ case $class in
  (XTerm:xterm_keys_help) echo state=floating\ layer=normal;;
 
  (Thunderbird) echo desktop=9;;
- (Spotify) echo desktop=7;;
+ (Spotify) echo desktop=9;;
  (keepassxc) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
  ([sS]team) echo desktop=6;;
@@ -24,6 +24,6 @@ case $class in
  (stj1) echo state=floating\ layer=above\ sticky=on;;
  ('')
   case $(ps -p "$(xdo pid $id)" -o comm= 2>/dev/null) in
-   (spotify) echo desktop=7;;
+   (spotify) echo desktop=9;;
   esac;;
 esac;

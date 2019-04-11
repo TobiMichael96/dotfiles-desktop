@@ -64,6 +64,7 @@ gzip
 haveged
 hplip
 htop
+ifplugd
 inetutils
 inkscape
 intel-ucode

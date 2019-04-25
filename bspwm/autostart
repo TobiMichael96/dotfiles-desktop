@@ -1,0 +1,11 @@
+# autostart
+
+sleep 15
+
+keepassxc &
+thunderbird &
+firefox &
+steam &
+spotify &
+teamspeak3 &
+

@@ -26,14 +26,7 @@ wal -i ~/dotfiles/background
 ~/.config/polybar/launch.sh &
 
 # other programms to autostart
-keepassxc &
-thunderbird &
-firefox &
-steam &
-spotify &
-teamspeak3 &
-
-#~/dotfiles/scripts/physlock.sh &
+~/.config/bspwm/autostart &
 
 xset s 600
 xss-lock -- ~/dotfiles/scripts/physlock.sh &

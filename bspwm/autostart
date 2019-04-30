@@ -1,11 +1,14 @@
 # autostart
+# delay the autostart
+sleep 5
 
-sleep 15
-
+# add applications to the list
 keepassxc &
 thunderbird &
-firefox &
 steam &
 spotify &
+
+# delay the autostart even more
+sleep 25
 teamspeak3 &
 

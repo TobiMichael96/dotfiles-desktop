@@ -7,6 +7,7 @@ paper-icon-theme
 polybar-git
 proton-git
 pycharm-professional
+radeon-profile-git
 signal
 spotify
 trizen

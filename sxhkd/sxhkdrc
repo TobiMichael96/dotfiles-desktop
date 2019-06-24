@@ -114,7 +114,7 @@ XF86Audio{Play,Pause,Next,Prev}
 
 # Lock screen
 super + l
-	~/dotfiles/scripts/physlock.sh
+	~/dotfiles/scripts/lock.sh
 
 # Screenshot
 @Print

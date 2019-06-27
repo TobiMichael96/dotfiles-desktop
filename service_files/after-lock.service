@@ -4,7 +4,7 @@ After=suspend.target
 
 [Service]
 Type=simple
-ExecStart=python /home/tobias/mqtt-status.py on
+ExecStart=python /home/tobias/dotfiles/mqtt-client/mqtt-status.py on
 
 [Install]
 WantedBy=suspend.target

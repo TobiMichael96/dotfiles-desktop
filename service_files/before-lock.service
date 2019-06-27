@@ -1,0 +1,10 @@
+[Unit]
+Description=Telling status before resume
+Before=suspend.target
+
+[Service]
+Type=simple
+ExecStart=python /home/tobias/dotfiles/mqtt-client/mqtt-status.py sleep
+
+[Install]
+WantedBy=suspend.target

@@ -8,9 +8,7 @@ polybar-git
 proton-git
 pycharm-professional
 radeon-profile-git
-signal
 spotify
 trizen
 ttf-font-awesome-4
 unified-remote-server
-yaourt

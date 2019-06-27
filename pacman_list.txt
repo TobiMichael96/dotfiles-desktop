@@ -140,6 +140,7 @@ scrot
 sed
 shadow
 sharutils
+slock
 splix
 steam
 steam-native-runtime

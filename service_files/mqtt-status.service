@@ -1,0 +1,13 @@
+[Unit]
+Description=MQTT PC shutdown message
+
+[Service]
+User=tobias
+Type=oneshot
+RemainAfterExit=true
+ExecStartPre=/bin/bash /home/tobias/dotfiles/scripts/check_connection.sh
+ExecStart=python /home/tobias/mqtt-status.py on
+ExecStop=python /home/tobias/mqtt-status.py off
+
+[Install]
+WantedBy=multi-user.target

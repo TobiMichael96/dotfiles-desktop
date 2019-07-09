@@ -2,6 +2,7 @@ android-studio
 breeze-default-cursor-theme
 bspwm-git
 intellij-idea-ultimate-edition
+kernel-modules-hook
 minecraft-launcher
 paper-icon-theme
 polybar-git

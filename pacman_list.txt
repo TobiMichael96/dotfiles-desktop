@@ -134,6 +134,7 @@ reflector
 reiserfsprogs
 rofi
 rsync
+rustup
 s-nail
 screenfetch
 scrot

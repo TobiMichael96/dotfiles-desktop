@@ -1,3 +1,4 @@
+acestream-launcher
 android-studio
 breeze-default-cursor-theme
 bspwm-git
@@ -9,6 +10,7 @@ polybar-git
 proton-git
 pycharm-professional
 radeon-profile-git
+simple-mtpfs
 spotify
 trizen
 ttf-font-awesome-4

@@ -18,7 +18,8 @@ case $class in
  (keepassxc) echo desktop=8;;
  (TeamSpeak*) echo desktop=7;;
  ([sS]team) echo desktop=6;;
- (vlc) echo desktop=10;;
+ (vlc) echo desktop=11;;
+ (TelegramDesktop) echo desktop=10;;
 
  ([cC]hromium|Chromium-browser) echo desktop=2;;
  ([lL]ibre[oO]ffice*) echo state=tiled\ layer=normal;;

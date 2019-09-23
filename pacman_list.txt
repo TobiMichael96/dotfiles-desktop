@@ -21,6 +21,7 @@ cabextract
 chromium
 cifs-utils
 cmake
+code
 compton
 coreutils
 crda
@@ -37,7 +38,6 @@ dmraid
 dosfstools
 dunst
 e2fsprogs
-eclipse-java
 efibootmgr
 ethtool
 exfat-utils
@@ -114,6 +114,7 @@ openssh
 openvpn
 os-prober
 pacman
+pacman-contrib
 patch
 pavucontrol
 pciutils

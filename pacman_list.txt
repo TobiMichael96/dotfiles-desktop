@@ -8,6 +8,7 @@ autoconf
 automake
 awesome
 b43-fwcutter
+base
 bash
 bash-completion
 bind-tools
@@ -22,7 +23,6 @@ chromium
 cifs-utils
 cmake
 code
-compton
 coreutils
 crda
 cryfs
@@ -35,6 +35,7 @@ dhcpcd
 dialog
 diffutils
 dmraid
+docker
 dosfstools
 dunst
 e2fsprogs
@@ -56,6 +57,7 @@ gettext
 gimp
 git
 glibc
+gparted
 grep
 groff
 grub
@@ -121,6 +123,7 @@ pciutils
 pcmanfm
 perl
 physlock
+picom
 pkgconf
 pkgfile
 playerctl
@@ -169,6 +172,7 @@ vi
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules-arch
+vkd3d
 vlc
 vulkan-radeon
 wget

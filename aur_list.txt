@@ -11,6 +11,7 @@ proton-git
 pycharm-professional
 simple-mtpfs
 spotify
+tor-browser
 ttf-font-awesome-4
 unified-remote-server
 yay-bin

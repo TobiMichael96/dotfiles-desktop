@@ -13,13 +13,14 @@ case $class in
  (Gitk) echo state=floating\ layer=normal;;
  (XTerm:xterm_keys_help) echo state=floating\ layer=normal;;
 
- (Thunderbird) echo desktop=9;;
+ (Thunderbird) echo desktop=8;;
  (Spotify) echo desktop=7;;
- (KeePassXC) echo desktop=8;;
+ (KeePassXC) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
+ (Mumble) echo desktop=7;;
  ([sS]team) echo desktop=6;;
- (vlc) echo desktop=11;;
- (TelegramDesktop) echo desktop=10;;
+# (vlc) echo desktop=11;;
+ (TelegramDesktop) echo desktop=8;;
 
  ([cC]hromium|Chromium-browser) echo desktop=2;;
  ([lL]ibre[oO]ffice*) echo state=tiled\ layer=normal;;

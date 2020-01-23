@@ -3,7 +3,6 @@
 sleep 5
 
 # add applications to the list
-keepassxc &
 thunderbird &
 steam &
 spotify &
@@ -11,4 +10,5 @@ telegram-desktop &
 
 # delay the autostart even more
 sleep 30
+#mumble
 teamspeak3 &

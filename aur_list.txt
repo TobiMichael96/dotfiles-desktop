@@ -11,6 +11,7 @@ proton-git
 pycharm-professional
 simple-mtpfs
 spotify
+systemd-boot-pacman-hook
 tor-browser
 ttf-font-awesome-4
 unified-remote-server

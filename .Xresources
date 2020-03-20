@@ -13,7 +13,7 @@ XTerm*utf8Title: true
 Xcursor.size: 18
 Xcursor.theme: Breeze_Default
 
-Xft.dpi: 92
+Xft.dpi: 91.7
 
 ! special colors
 *.foreground:  #ABB2BF

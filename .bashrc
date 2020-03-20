@@ -23,6 +23,8 @@ alias homeserver='ssh 192.168.2.4'
 
 alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
+alias mullvad='sh ~/dotfiles/scripts/mullvad.sh'
+
 alias stickm='sh ~/dotfiles/scripts/mount-stick.sh'
 alias stickum='sh ~/dotfiles/scripts/umount-stick.sh'
 

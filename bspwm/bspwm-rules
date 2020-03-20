@@ -18,7 +18,7 @@ case $class in
  (KeePassXC) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
  (Mumble) echo desktop=7;;
- ([sS]team) echo desktop=6;;
+ ([sS]team) echo desktop=6\ state=floating;;
 # (vlc) echo desktop=11;;
  (TelegramDesktop) echo desktop=8;;
 

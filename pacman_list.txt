@@ -15,9 +15,9 @@ bind-tools
 binutils
 bison
 breeze-gtk
+breezy
 btrfs-progs
 bzip2
-bzr
 cabextract
 chromium
 cifs-utils
@@ -94,6 +94,7 @@ logrotate
 lvm2
 lxappearance
 m4
+maim
 make
 man-db
 man-pages
@@ -173,7 +174,6 @@ vi
 virtualbox
 virtualbox-guest-iso
 virtualbox-host-modules-arch
-vkd3d
 vlc
 vulkan-radeon
 wget

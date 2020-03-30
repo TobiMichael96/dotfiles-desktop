@@ -3,7 +3,6 @@ alsa-utils
 android-tools
 android-udev
 arandr
-atom
 autoconf
 automake
 awesome
@@ -147,7 +146,6 @@ scrot
 sed
 shadow
 sharutils
-slock
 splix
 steam
 steam-native-runtime
@@ -195,6 +193,7 @@ xorg-xinit
 xorg-xkill
 xorg-xrandr
 xorg-xsetroot
+xsecurelock
 xss-lock
 xterm
 xz

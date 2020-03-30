@@ -10,5 +10,5 @@ telegram-desktop &
 
 # delay the autostart even more
 sleep 30
-#mumble
+#mumble &
 teamspeak3 &

@@ -18,7 +18,7 @@ case $class in
  (KeePassXC) echo desktop=10;;
  (TeamSpeak*) echo desktop=7;;
  (Mumble) echo desktop=7;;
- ([sS]team) echo desktop=6\ state=floating;;
+ ([sS]team) echo desktop=5;;
 # (vlc) echo desktop=11;;
  (TelegramDesktop) echo desktop=8;;
 
@@ -29,4 +29,10 @@ case $class in
   case $(ps -p "$(xdo pid $id)" -o comm= 2>/dev/null) in
    (spotify) echo desktop=7;;
   esac;;
+
 esac;
+
+wmtitle=$(xprop -id "$1" WM_NAME | cut -d\" -f2)
+case "$wmtitle" in
+  *"Friends List"*) echo desktop=6\ follow=off;;
+esac

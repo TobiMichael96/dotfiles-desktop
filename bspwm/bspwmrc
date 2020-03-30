@@ -13,15 +13,14 @@ bspc config single_monocle       true
 bspc config initial_polarity second_child
 bspc config automatic_scheme longest_side
 
-mygames=$(ls ~/.steam/steam/steamapps | grep appmanifest | sed 's/[^0-9]*//g')
-# this sed command removes everything but the digits
+bspc config ignore_ewmh_focus true
 
+mygames=$(ls ~/.steam/steam/steamapps | grep appmanifest | sed 's/[^0-9]*//g')
 for game in $mygames; do
-        bspc rule -a steam_app_$game desktop=^10 state=fullscreen follow=on
+        bspc rule -a steam_app_$game desktop=5 follow=on
 done
 
 bspc config external_rules_command ~/.config/bspwm/bspwm-rules
-
 
 ~/.screenlayout/withoutTV.sh
 dunst &

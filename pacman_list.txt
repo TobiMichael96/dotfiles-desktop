@@ -77,7 +77,6 @@ jdk10-openjdk
 jfsutils
 jq
 jre10-openjdk
-keepassxc
 less
 lib32-libva-mesa-driver
 lib32-mesa
@@ -110,6 +109,8 @@ networkmanager
 nfs-utils
 nilfs-utils
 nmap
+nodejs
+npm
 ntfs-3g
 numlockx
 obs-studio
@@ -132,6 +133,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pulseaudio-zeroconf
 python-gobject
 python-pip
 python-pyqt5

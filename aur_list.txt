@@ -6,6 +6,7 @@ intellij-idea-ultimate-edition
 kernel-modules-hook
 minecraft-launcher
 paper-icon-theme
+phpstorm
 polybar-git
 proton-git
 pycharm-professional
@@ -14,4 +15,5 @@ spotify
 systemd-boot-pacman-hook
 ttf-font-awesome-4
 unified-remote-server
+webstorm
 yay-bin

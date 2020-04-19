@@ -10,6 +10,7 @@ if [[ "$SSH_AGENT_PID" == "" ]]; then
 	ssh-add ~/.ssh/raspi
 	ssh-add ~/.ssh/gitlab
 	ssh-add ~/.ssh/amazon.pem
+	ssh-add ~/.ssh/github
 fi
 
 alias px='ps ax | grep '

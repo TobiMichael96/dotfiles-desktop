@@ -123,6 +123,10 @@ super + l
 super + @Print
 	~/dotfiles/scripts/screenshot-tool.sh f
 
+super + shift + @Print
+        ~/dotfiles/scripts/screenshot-tool.sh a
+
+
 # Show information
 super + i
 	~/dotfiles/scripts/information.sh

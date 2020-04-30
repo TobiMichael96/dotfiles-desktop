@@ -1,4 +1,3 @@
-acestream-launcher
 android-studio
 breeze-default-cursor-theme
 bspwm-git

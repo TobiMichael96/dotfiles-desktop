@@ -88,8 +88,6 @@ libva-vdpau-driver
 licenses
 linux
 linux-headers
-linux-zen
-linux-zen-headers
 logrotate
 lvm2
 lxappearance

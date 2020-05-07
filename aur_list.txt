@@ -7,7 +7,6 @@ minecraft-launcher
 paper-icon-theme
 phpstorm
 polybar-git
-proton-git
 pycharm-professional
 simple-mtpfs
 spotify

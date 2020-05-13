@@ -61,7 +61,7 @@ cursor-scroll = ns-resize
 
 [bar/secondary]
 monitor = HDMI-A-1
-bottom = true
+bottom = false
 width = 100%
 height = 20
 offset-x = 0.0%

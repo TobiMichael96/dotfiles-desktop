@@ -9,6 +9,6 @@ spotify &
 telegram-desktop &
 
 # delay the autostart even more
-sleep 30
+sleep 5
 #mumble &
 teamspeak3 &

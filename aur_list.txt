@@ -12,6 +12,5 @@ simple-mtpfs
 spotify
 systemd-boot-pacman-hook
 ttf-font-awesome-4
-unified-remote-server
 webstorm
 yay-bin

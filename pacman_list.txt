@@ -73,10 +73,9 @@ iproute2
 iputils
 ipw2100-fw
 ipw2200-fw
-jdk10-openjdk
+jdk-openjdk
 jfsutils
 jq
-jre10-openjdk
 less
 lib32-libva-mesa-driver
 lib32-mesa
@@ -89,6 +88,7 @@ licenses
 linux
 linux-headers
 logrotate
+lutris
 lvm2
 lxappearance
 m4

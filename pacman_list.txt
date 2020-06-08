@@ -146,6 +146,7 @@ scrot
 sed
 shadow
 sharutils
+speedtest-cli
 splix
 steam
 steam-native-runtime

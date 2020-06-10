@@ -13,6 +13,8 @@ if [[ "$SSH_AGENT_PID" == "" ]]; then
 	ssh-add ~/.ssh/github
 fi
 
+export TERM=xterm-256color
+
 alias px='ps ax | grep '
 alias cdc='cd $HOME/.config'
 alias screenshot='sh ~/dotfiles/scripts/screenshot-tool.sh'

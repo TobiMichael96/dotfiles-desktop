@@ -13,26 +13,25 @@ case $class in
  (Gitk) echo state=floating\ layer=normal;;
  (XTerm:xterm_keys_help) echo state=floating\ layer=normal;;
 
- (Thunderbird) echo desktop=8;;
- (Spotify) echo desktop=7;;
- (KeePassXC) echo desktop=10;;
- (TeamSpeak*) echo desktop=7\ follow=on;;
- (Mumble) echo desktop=7;;
- ([sS]team) echo desktop=5;;
+ (Thunderbird) echo desktop=10;;
+ (Spotify) echo desktop=13;;
+ (TeamSpeak*) echo desktop=13\ follow=on;;
+ (Mumble) echo desktop=15;;
+ ([sS]team) echo desktop=7;;
 # (vlc) echo desktop=11;;
- (TelegramDesktop) echo desktop=8;;
+ (TelegramDesktop) echo desktop=14;;
 
  ([cC]hromium|Chromium-browser) echo desktop=2;;
  ([lL]ibre[oO]ffice*) echo state=tiled\ layer=normal;;
  (stj1) echo state=floating\ layer=above\ sticky=on;;
  ('')
   case $(ps -p "$(xdo pid $id)" -o comm= 2>/dev/null) in
-   (spotify) echo desktop=7;;
+   (spotify) echo desktop=13;;
   esac;;
 
 esac;
 
 wmtitle=$(xprop -id "$1" WM_NAME | cut -d\" -f2)
 case "$wmtitle" in
-  *"Friends List"*) echo desktop=6\ follow=off;;
+  *"Friends List"*) echo desktop=8\ follow=off;;
 esac

@@ -197,7 +197,6 @@ xorg-xrandr
 xorg-xsetroot
 xsecurelock
 xss-lock
-xterm
 xz
 zerotier-one
 zip

@@ -12,7 +12,7 @@ super + Return
 
 # workspace switcher
 super + Tab
-	rofi -modi window -show window -display-window 'Workspace: '
+	rofi -theme ~/dotfiles/rofi/window -modi window -show window -display-window 'Workspace: '
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -47,8 +47,11 @@ super + {space, shift + space}
 	bspc node -t {floating,tiled}
 
 # focus or send to the given desktop
-super + {_,shift + }{1-9,0,m}
-	bspc {desktop -f,node -d} {1-9,10,11}
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} {1-9,100}
+
+super + ctrl {_,shift + } + {1-9,0}
+	bspc {desktop -f,node -d} 1{1-9,20}
 
 # focus other node
 super + {Left,Right}

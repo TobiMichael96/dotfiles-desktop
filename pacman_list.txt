@@ -88,6 +88,7 @@ licenses
 linux
 linux-headers
 logrotate
+lshw
 lutris
 lvm2
 lxappearance
@@ -157,7 +158,6 @@ systemd
 systemd-sysvcompat
 tar
 teamspeak3
-teeworlds
 telegram-desktop
 terminus-font
 termite
